@@ -1,0 +1,227 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 800px;
+  margin: auto;
+  position: relative;
+}
+@font-face {
+  font-family: MyFont;
+  src: url(./suisseintl-regular.woff2);
+}
+html {
+  font-family: MyFont;
+}
+
+svg {
+  display: block;
+  width: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 90px;
+}
+label,
+h1 {
+  color: #666666;
+}
+hr {
+  border: 0.5px solid #b1b1b1;
+}
+
+h5 {
+  color: #333333;
+  margin: 0 auto;
+}
+.rrr {
+  padding-right: 90px;
+}
+.forr {
+  padding: 0 auto;
+  display: flex;
+}
+
+button {
+  height: auto;
+  background-color: #333333;
+  border: none;
+  color: white;
+  padding: 10px 90px;
+}
+
+.well {
+  padding-top: 240px;
+}
+#selectyourname {
+  padding-left: 20px;
+  padding-right: 180px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+input {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+fieldset {
+  display: block;
+  padding-top: 90px;
+  border: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+label {
+  display: block;
+  margin-bottom: 40px;
+}
+
+#or1 {
+  margin-bottom: 10px;
+}
+#or2 {
+  margin-bottom: 70px;
+}
+.fiel {
+  padding: 0 auto;
+}
+
+#f1 {
+  margin-bottom: 20px;
+  padding-top: 90px;
+}
+#ff2 {
+  margin-right: 0;
+  margin-bottom: 40px;
+  margin-top: 90px;
+}
+
+#f2 {
+  margin-right: 0;
+  margin-bottom: 40px;
+}
+
+/*..................................................... step2 .......................................*/
+.bu {
+  display: -webkit-inline-box;
+  height: 140px;
+  width: calc(20% - 24px);
+  margin: 0 auto;
+  padding: -1px 10px 10px 10px;
+  text-align: center;
+  border-radius: 10px 10px;
+  color: black;
+  background-color: white;
+  border: 0.5px solid black;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-family: MyFont;
+}
+
+.bu:nth-child(5) {
+  margin-right: 0;
+}
+
+input[type="checkbox"] {
+  /* visibility: hidden; */
+  /* opacity: 0; */
+}
+
+.bu select {
+  margin-top: 30px;
+  /* width: 100%; */
+  padding: 15px;
+}
+/* .bu select:nth-child(2) {
+  margin-top: 20px;
+} */
+.bu:active,
+.bu:focus {
+  background-color: white;
+  border: 0.5px solid blue;
+  border-radius: 10px 10px;
+}
+input[type="checkbox"]:checked + .bu {
+  background-color: white;
+  border: 0.5px solid blue;
+  border-radius: 10px 10px;
+}
+/* .bu option {
+  padding-top: 5px;
+  padding-bottom: 10px;
+} */
+
+/* .bu {
+  border: 0.5px solid blue;
+} */
+
+/*............................... step 3 ..........................................*/
+/* .tab label {
+  margin: 0 auto;
+}
+.tab {
+  overflow: hidden;
+}
+.tab label {
+  display: block;
+}
+.tab input[type="text"] {
+  margin-right: 30px;
+  margin-bottom: 30px;
+} */
+h2 {
+  margin-right: 0;
+  margin-bottom: 0;
+  padding-top: 90px;
+}
+
+/* .............................................. step 4 ....................................*/
+.column:not(:last-child) {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.column {
+  float: left;
+  width: 31%;
+}
+.column label {
+  margin-bottom: 20px;
+}
+
+.main3 {
+  display: flex;
+}
+.main3-1 {
+  flex: 50%;
+}
+.main3-2 {
+  margin-top: 90px;
+  margin-right: 0;
+  float: right;
+}
+.main3-2 label {
+  margin-bottom: 20px;
+}
+
+/* step 3 copy  */
+.hee {
+  width: 100%;
+}
+
+.nana {
+  visibility: collapse;
+}
+
+#ip {
+  height: 80px;
+
+  margin-bottom: 40px;
+}
+
+.naaaa {
+  display: flex;
+  flex-direction: row;
+}
+
+/* .column:not(:last-child) {
+  margin-right: 0;
+} */
