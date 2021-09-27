@@ -1,0 +1,50 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body id="body">
+    <div
+      class="main"
+      style="
+        width: fit-content;
+        height: fit-content;
+        background-color: white;
+        border-radius: 50%;
+        box-shadow: 0 0 20px 2px black;
+        padding: 30px;
+        margin: 20px;
+      "
+    >
+      <h5>R<input id="red" type="range" min="0" max="255" value="255" /></h5>
+      <h5>G<input id="green" type="range" min="0" max="255" value="255" /></h5>
+      <h5>B<input id="blue" type="range" min="0" max="255" value="255" /></h5>
+    </div>
+    <script>
+      red = 255;
+      green = 255;
+      blue = 255;
+
+      document.getElementById("red").oninput = function () {
+        red = this.value;
+        set();
+      };
+      document.getElementById("green").oninput = function () {
+        green = this.value;
+        set();
+      };
+      document.getElementById("blue").oninput = function () {
+        blue = this.value;
+        set();
+      };
+
+      function set() {
+        let v = "rgb(" + red + ", " + green + ", " + blue + ")";
+        console.log(v);
+        document.body.style.backgroundColor = v;
+      }
+    </script>
+  </body>
+</html>
